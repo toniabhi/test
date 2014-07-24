@@ -1,0 +1,79 @@
+.mail {
+	border:5px solid #9900FF;
+    margin-bottom: 5px;
+    width: 415px;
+}
+#mail{
+	height: 2em;
+}
+.uname {
+    border:5px solid #9900FF;
+    margin-bottom: 5px;
+	width: 415px;
+}
+#uname{
+	height: 2em;
+}
+.pass {
+    border: 5px solid #9900FF;
+    margin-bottom: 5px;
+	width: 415px;
+}
+#pass{
+	height: 2em;
+}
+
+#fname{
+	border: 5px solid #9900FF;
+    margin-bottom: 3em;
+	width: 200px;
+	height: 2em;
+}
+#lname{
+	border: 5px solid #9900FF;
+    margin-bottom: 3em;
+	width: 200px;
+	height: 2em;
+}
+.name{
+	margin-bottom: -1em;
+}
+.box{
+	margin-bottom: 2em;
+}
+.sign {
+    background: #9900FF;
+    border: .125em solid #9900FF;
+    margin-bottom: .5em;
+    padding: .5em;
+    width:30%;
+}
+#submit{
+	background: #FFD700;
+	border: .125em solid #FFD700;
+	-webkit-border-radius: 5px;
+	width: 27em;  
+	height: 3em;
+	font-size: 15px;
+}
+input[type="checkbox"] {
+  outline : 2px solid #9900FF;
+  margin-right:10px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color:#9999FF;
+  width: 100%;
+}
+header {
+  position: fixed;
+ top: 0;
+  left: 0;
+  height: 70px;
+  background-color:#000000;
+  width: 100%;
+  margin-bottom: 5em;
+}
