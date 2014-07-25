@@ -127,3 +127,10 @@ display: inline-block;
         width: 20%;
         height: 0
     }
+
+    img{
+
+    	float:center;
+    	margin:5px;
+    }
+    
