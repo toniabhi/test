@@ -65,7 +65,7 @@ footer {
   bottom: 0;
   left: 0;
   height: 70px;
-  background-color:#9999FF;
+  background-color:#9966CC;
   width: 100%;
 }
 header {
@@ -128,9 +128,13 @@ display: inline-block;
         height: 0
     }
 
-    img{
+    .toni img{
 
-    	float:center;
     	margin:5px;
+    	position: absolute;
     }
-    
+    .cent{
+    	margin:5px;
+    	
+    }
+
