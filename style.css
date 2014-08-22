@@ -1,81 +1,92 @@
 .mail {
-	border:5px solid #9900FF;
+    border:5px solid #7c70b8;
     margin-bottom: 5px;
-    width: 415px;
+    width: 413px;
+    border-radius: 5px;
 }
 #mail{
-	height: 2em;
+	height: 30px;
 }
 .uname {
-    border:5px solid #9900FF;
+    border:5px solid #7c70b8;
     margin-bottom: 5px;
-	width: 415px;
+	width: 413px;
+        border-radius: 5px;
 }
 #uname{
-	height: 2em;
+	height: 30px;
 }
 .pass {
-    border: 5px solid #9900FF;
+    border: 5px solid #7c70b8;
     margin-bottom: 5px;
-	width: 415px;
+	width: 413px;
+     border-radius: 5px;
 }
 #pass{
-	height: 2em;
+	height: 30px;
 }
 
 #fname{
-	border: 5px solid #9900FF;
+	border: 5px solid #7c70b8;
     margin-bottom: 3em;
 	width: 200px;
-	height: 2em;
+	height: 30px;
+  border-radius: 5px;
+  
 }
 #lname{
-	border: 5px solid #9900FF;
+	border: 5px solid #7c70b8;
     margin-bottom: 3em;
 	width: 200px;
-	height: 2em;
+	height: 30px;
+  border-radius: 5px;
+  
 }
 .name{
-	margin-bottom: -1em;
+	margin-bottom: -4em;
 }
 .box{
-	margin-bottom: 2em;
-}
+	margin-bottom: 2px;
+	font-family:arial;
+  }
+
 .sign {
-    background: #9900FF;
-    border: .125em solid #9900FF;
-    margin-bottom: .5em;
+    background: linear-gradient(mediumpurple,slateblue);
+    border: .125em solid linear-gradient(lightsteelblue,mediumpurple);
+    margin-bottom: 8%;
     padding: .5em;
     width:30%;
+	  border-radius:5px;	
+   height:80px;
+   font-family:arial;
 }
 #submit{
-	background: #FFD700;
+	background: linear-gradient(gold, orange);
 	border: .125em solid #FFD700;
 	-webkit-border-radius: 5px;
-	width: 27em;  
-	height: 3em;
-	font-size: 15px;
+	width: 100%;  
+	height: 40px;
+	font-size: 15px ;
+  color: #282828;
+	
 }
-input[type="checkbox"] {
-  outline : 2px solid #9900FF;
-  margin-right:10px;
-}
+
 footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 70px;
-  background-color:#9966CC;
+  height: 50px;
+  background-color:#504683;
   width: 100%;
 }
 header {
   position: fixed;
- top: 0;
+   top: 0;
   left: 0;
   height: 70px;
-  background-color:#000000;
+  background-color:#252525;
   width: 100%;
-  margin-bottom: 5em;
+  margin-bottom:0px;
 }
 .wel {
     background: gold;
@@ -87,19 +98,22 @@ header {
 
 .box1 {
 display: inline-block;
-    width: 15em;
-    border: 1em solid gold;
+    width: 10%;
+    border: 10px solid gold;
     float: left;
     background-color: gold;
+
 }
 .box2 {
 display: inline-block;
-    width: 14em;
-    border: .125em solid #9900FF;;
+    width: 17%;
+    border: 4px solid #6d61a9;
     float: right;
-    background-color: gold;
     padding: 10px; 
-    
+    margin-top: -20px;
+    margin-right: 11%;
+    border-radius: 3px;
+    background: linear-gradient(#fecd19,orange);
 }	
 .grid {
         font-size: 30px;
@@ -134,11 +148,24 @@ display: inline-block;
     	position: absolute;
     }
     .cent{
-    	margin:5px;
-    	
-    }
-
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  
+}
 #login
 {
 margin-left:-200px;
 }
+.mainlogininput::-webkit-input-placeholder {
+    font-family: "Times New Roman", Times, serif;
+    font-weight:bold;
+}
+.mainlogininput1::-webkit-input-placeholder {
+    font-family: "arial";
+    font-weight:bold;
+}
+
+
+
+
