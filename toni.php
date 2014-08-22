@@ -20,34 +20,34 @@ while($info=mysql_fetch_array($pname))
 
    <title> Login Page</title>
   </head>
-	<body style="background-color:#9966FF">
+	<body style="background-image:radial-gradient(#a696df,#6a5ea6);">
   <div id="page-wrapper">
   <div id= "page-content">
-  <div>
-  <p><header>
+    <p><header>
    <div class="toni">
-    <p style="color:white;font-size:25px; margin-left:5%;"><img src="aaa.png" width="30px" height="25px" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inno<font color="gold" >Trainning</font> 
-      <a href="logout.php" style="margin-top:-38px;margin-left:900px;text-decoration:none">Logout</a>
+    <p style="color:white;font-size:25px; margin-left:5%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="aaa.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inno<font color="gold" >Trainning</font> 
+      <a href="logout.php" style="margin-top:-38px;margin-left:800px;text-decoration:none">Logout</a>
     </p></div>
     </header><br><br><br>
-
-    <p style="text-align:left; font-size:30px; color:white; margin-left: 5%;">Welcome &nbsp;<a href="toni.php" style="text-decoration:none; color:white"><?php echo $pr; ?>
-    </a></div></p>  
-    <div class="box2">continue to the page you were on</div>
+<div style="margin-top:40px">
+    <p> <span style="text-align:left; font-size:30px; color:white; margin-left: 11%;font-family: arial;font-weight:bold">Welcome</span>
+    &nbsp;<a href="toni.php" style="text-decoration:none; color:white"><?php echo $pr; ?>
+    </a></div></p>
+ <div class="box2">continue to the page you were on</div>
     <button type="button" onclick="return display();"> Edit your name</button>
-    <p style="text-align:left; font-size:20px; color:white; margin-left: 5%;">Please check your inbox for an email that will confirm your email address.</p> <br /><br>
-    <div class="cent" align="center">
-<img src="complete.jpg" width="20%" height="30%" />
-<img src="article.png" width="20%" height="30%" />
-<img src="forum.png" width="20%" height="30%" />
+    <p style="text-align:left; font-size:17px; color:white; margin-left:11%;font-family:arial; font-weight:bold;">Please check your inbox for an email that will confirm your email address.</p> <br /><br>
+    <div class="cent" align="center" style="margin-top:20px">
+<img src="complete.jpg" width="25%" height="35%" style="marign-left:5px; margin-right:20px" />
+<img src="article.png" width="25%" height="35%" style="marign-left:5px; margin-right:20px" />
+<img src="forum.png" width="25%" height="35%" />
 </div>
-   <footer
-    <p style="font-family:arial;color:white;font-size:20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &copy;2004-2014 Innotrainning &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="contactus.htm" style="text-decoration:none; color:white">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <a href="privacy.htm" style="text-decoration:none; color:white">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <a href="terms.htm" style="text-decoration:none;color:white  ">Terms</a>
+   <footer style="height:15%;">
+    <p style="font-family:arial;color:white;font-size:14px; opacity:0.6;margin-left:110px; margin-top:20px;">&copy; 2004-2014 Innotrainning &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="contactus.htm" style="text-decoration:none; color:white">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="privacy.htm" style="text-decoration:none; color:white">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="terms.htm" style="text-decoration:none;color:white">Terms</a>
      </p>
-    </footer></p>
+    </footer>
     </div>
     </div>
     <div id="aa1">

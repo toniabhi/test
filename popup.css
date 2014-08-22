@@ -59,12 +59,12 @@
 }
 button{
 
-border-color:red;
+border: 4px solid #6d61a9;
 float:right;
-margin-top:-60px;
+margin-top:-70px;
 margin-right:-200px;
-background-color: red;
-border-radius:25px;
+background: linear-gradient(gold, orange);
+border-radius:10px;
 width:10%;
 height:40px;
 }

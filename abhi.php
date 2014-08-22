@@ -24,41 +24,43 @@ echo "<input type='submit' name='submit' value='Register'/>"."</form>";
 
    <title> Login Page</title>
   </head>
-	<body style="background-color:#9966FF">
+	<body style="background-image:radial-gradient(#a696df,#6a5ea6);">
   <div id="page-wrapper">
   <div id= "page-content">
   <div>
-  <p><header>
-   <div class="toni">
-    <p style="color:white;font-size:25px; margin-left:5%;"><img src="aaa.png" width="30px" height="25px" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inno<font color="gold" >Trainning</font> </p></div>
+  <header>
+  <div class="toni">
+    <p style="color:white;font-size:25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="aaa.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inno<font color="gold" >Trainning</font> </p></div>
     </header><br><br><br>
 
-    <p style="text-align:left; font-size:30px; color:white; margin-left: 5%;">Welcome
-    <span style="background-color:; padding:4px; color: black;"><?php echo "".$fname . "".  $lname; ?></span>
-    </div></p>  
-    <div class="box2">continue to the page you were on</div>
+    <div style="margin-top:40px">
+    <p> <span style="text-align:left; font-size:30px; color:white; margin-left: 11%;font-family: arial;font-weight:bold">Welcome</span>
+    <span style="background: linear-gradient(gold, orange); padding:10px; width:500px; border:1px; margin:5px;color:#303030;text-align:left; font-size:20px; "Times New Roman", Times, serif;">&nbsp;&nbsp;&nbsp;First name &nbsp;Last name&nbsp;&nbsp;&nbsp;</span>
+    </div> 
+    <div class="box2" style="font-family:arial; font-size:13px; padding:10px;color:#303030;font-weight:bold">&nbsp;&nbsp;Continue to the page you were on</div>
     
-    <p style="text-align:left; font-size:20px; color:white; margin-left: 5%;">Please check your inbox for an email that will confirm your email address.</p> <br /><br>
-    <div class="cent" align="center">
-<img src="complete.jpg" width="20%" height="30%" />
-<img src="article.png" width="20%" height="30%" />
-<img src="forum.png" width="20%" height="30%" />
+    
+    <p style="text-align:left; font-size:17px; color:white; margin-left:11%;font-family:arial; font-weight:bold;">Please check your inbox for an email that will confirm your email address.</p> <br /><br>
+    <div class="cent" align="center" style="margin-top:20px">
+<img src="complete.jpg" width="25%" height="35%" style="marign-left:5px; margin-right:20px" />
+<img src="article.png" width="25%" height="35%" style="marign-left:5px; margin-right:20px" />
+<img src="forum.png" width="25%" height="35%" />
 </div>
-   <footer
-    <p style="font-family:arial;color:white;font-size:20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &copy;2004-2014 Innotrainning &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="contactus.htm" style="text-decoration:none; color:white">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <a href="privacy.htm" style="text-decoration:none; color:white">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <a href="terms.htm" style="text-decoration:none;color:white  ">Terms</a>
+   <footer style="height:15%;">
+    <p style="font-family:arial;color:white;font-size:14px; opacity:0.6;margin-left:110px; margin-top:20px;">&copy; 2004-2014 Innotrainning &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="contactus.htm" style="text-decoration:none; color:white">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="privacy.htm" style="text-decoration:none; color:white">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="terms.htm" style="text-decoration:none;color:white">Terms</a>
      </p>
-    </footer></p>
+    </footer>
     </div>
     </div>
     <div id="popup-content" style="display:block; top:50px; left:35%; ">
-    <h2> Enter your name:</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter your name:</h2>
     <div>
     <p>
     <form method="post" action="check.php">
-    <input type="text" name="name" placeholder="Enter your name" required>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" placeholder="&nbsp;&nbsp;Enter your name" required>
     <input type="submit" name="submit" value="Submit">
     </form>
     </p>
