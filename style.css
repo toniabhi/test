@@ -3,14 +3,21 @@
     margin-bottom: 5px;
     width: 413px;
     border-radius: 5px;
-    height: 30px;
+    }
+    #mail
+{
+  height: 30px;
 }
 .uname {
     border:5px solid #7c70b8;
     margin-bottom: 5px;
 	width: 413px;
         border-radius: 5px;
-        height: 30px;
+        
+}
+#uname
+{
+  height: 30px;
 }
 
 .pass {
@@ -18,7 +25,11 @@
     margin-bottom: 5px;
 	width: 413px;
      border-radius: 5px;
-height: 30px;
+
+}
+#pass
+{
+  height: 30px;
 }
 
 #fname{
