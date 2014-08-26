@@ -1,29 +1,24 @@
-.mail {
+  .mail {
     border:5px solid #7c70b8;
     margin-bottom: 5px;
     width: 413px;
     border-radius: 5px;
-}
-#mail{
-	height: 30px;
+    height: 30px;
 }
 .uname {
     border:5px solid #7c70b8;
     margin-bottom: 5px;
 	width: 413px;
         border-radius: 5px;
+        height: 30px;
 }
-#uname{
-	height: 30px;
-}
+
 .pass {
     border: 5px solid #7c70b8;
     margin-bottom: 5px;
 	width: 413px;
      border-radius: 5px;
-}
-#pass{
-	height: 30px;
+height: 30px;
 }
 
 #fname{
@@ -57,17 +52,19 @@
     padding: .5em;
     width:30%;
 	  border-radius:5px;	
-   height:80px;
+   height:85px;
    font-family:arial;
 }
 #submit{
 	background: linear-gradient(gold, orange);
 	border: .125em solid #FFD700;
-	-webkit-border-radius: 5px;
-	width: 100%;  
-	height: 40px;
+	-webkit-border-radius: 3px;
+	width: 101.5%;  
+	height: 50px;
 	font-size: 15px ;
   color: #282828;
+  margin-left: -3px;
+  margin-top: -0.5%;
 	
 }
 
@@ -83,7 +80,7 @@ header {
   position: fixed;
    top: 0;
   left: 0;
-  height: 70px;
+  height: 40px;
   background-color:#252525;
   width: 100%;
   margin-bottom:0px;
@@ -110,11 +107,26 @@ display: inline-block;
     border: 4px solid #6d61a9;
     float: right;
     padding: 10px; 
-    margin-top: -20px;
-    margin-right: 11%;
-    border-radius: 3px;
-    background: linear-gradient(#fecd19,orange);
+    margin-top: -25px;
+    margin-right: 10%;
+    border-radius: 6px;
+    
+    height: 20px;
+
 }	
+.box3 {
+display: inline-block;
+    width: 100%;
+    border: 4px solid linear-gradient(#fecd19,orange);;
+    float: right;
+    padding: 10px; 
+    margin-top: -10.5px;
+    margin-right: -4.5%;
+    border-radius: 5px;
+    background: linear-gradient(#fecd19,orange);
+    height: 20px;
+text-align: center;
+} 
 .grid {
         font-size: 30px;
         display: inline-block;
@@ -144,26 +156,71 @@ display: inline-block;
 
     .toni img{
 
-    	margin:5px;
+    	margin:1px;
     	position: absolute;
     }
     .cent{
   display: inline-block;
   width: 100%;
   height: 100%;
-  
 }
 #login
 {
 margin-left:-200px;
 }
-.mainlogininput::-webkit-input-placeholder {
+.mainlogininput{
     font-family: "Times New Roman", Times, serif;
     font-weight:bold;
+    text-indent: 7px;
 }
-.mainlogininput1::-webkit-input-placeholder {
-    font-family: "arial";
-    font-weight:bold;
+.mainlogininput1{
+    font-family: Impact, Charcoal, sans-serif;
+    
+    text-indent: 9px;
+}
+.i{
+  border: 2px solid #6d61a9;
+  height:200px;
+  width: 300px;
+  border-radius: 5px;
+  background-color:#6d61a9;
+  color:white;
+  font-weight: bold;
+  font-family:arial;
+  text-shadow:2px 2px #7c70b8;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 0 5px 0 #6d61a9;
+    
+}
+
+.ii{
+  border: 2px solid #6d61a9;
+  height:200px;
+  width: 300px;
+  border-radius: 5px;
+  background-color:#6d61a9;
+  color:white;
+  font-weight: bold;
+  font-family:arial;
+  text-shadow:2px 2px #7c70b8;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 0 5px 0 #6d61a9;
+}
+.iii{
+  border: 2px solid #6d61a9;
+  height:200px;
+  width: 300px;
+  border-radius: 5px;
+  background-color:#6d61a9;
+  color:white;
+  font-weight: bold;
+  font-family:arial;
+  text-shadow:2px 2px #7c70b8;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 0 5px 0 #6d61a9;
 }
 
 
