@@ -1,0 +1,55 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color:#504683;
+  width: 100%;
+}
+header {
+  position: fixed;
+   top: 0;
+  left: 0;
+  height: 60px;
+  background-color:#252525;
+  width: 100%;
+  margin-bottom:0px;
+}
+  .toni img{
+
+      margin:1px;
+      position: absolute;
+    }
+    #menu ul{
+    	margin-left: 40%;
+    	padding: 5px;
+    	list-style-type:none;
+
+    }
+  #menu a{
+  	display: block;
+  	width: 5em;
+  	color: white;
+  	background-color: #000099;
+  	text-decoration: none;
+  	text-align: center;
+  	height:20px;
+  }
+  #menu a:hover{
+  	background-color: red;
+  }
+  #menu li{
+  	float: left;
+    margin-right: 0.5em; 	
+  }
+  .option{
+  margin-top: -30px;
+  margin-bottom: 20px;
+   border:5px solid #7c70b8;
+  border-radius: 5px;
+  width:6.2%;
+  margin-left:45%;
+  height: 22px;
+}
+
+  	

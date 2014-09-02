@@ -3,33 +3,37 @@ session_start();
 if(isset($_POST['submit']))
     {
        $connect=mysql_connect("localhost","root","abhi");
-	 mysql_select_db("test",$connect);
+	 mysql_select_db("users",$connect);
 
-      $email=$_POST['email'];
+      $uname=$_POST['uname'];
 	
       $pass=$_POST['pass'];
 	
-	 	 $login=mysql_query("SELECT * FROM register WHERE email='$email'");
+	 	 $login=mysql_query("SELECT * FROM login WHERE uname='$uname'");
 	 while($log=mysql_fetch_assoc($login))
 	  {
-	    $dbemail=$log['email'];
+	    $dbuname=$log['uname'];
 		
 	    $dbpass=$log['pass'];
+	    $password= md5($pass);
+	    $desi = $log['mylist'];
            	//new code
 		}
-	   if($email==$dbemail && $pass==$dbpass)
+	   if($uname==$dbuname && $password==$dbpass)
 		{
-		  $_SESSION['email']=$dbemail;
+		  $_SESSION['uname']=$dbuname;
 		  $_SESSION['pass']=$dbpass;	
-			  header("Location: abhi.php");
+			  if($desi=='teacher')		
+			  header("location:teacher.php");
+			else						  							
+			header("location:student.php");
 		}
 		else
 		{
-		header("Location: index.php");
+		$msg = "Enter Correct username or password.";
+                $msgEncoded = base64_encode($msg);
+                header("location:index.php?msg=".$msgEncoded);
      }
  }
- else
- {
- 	header("Location: index.php");
- }
+
 ?>
