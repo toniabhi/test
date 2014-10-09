@@ -59,9 +59,8 @@
 .sign {
     background: linear-gradient(mediumpurple,slateblue);
     border: .125em solid linear-gradient(lightsteelblue,mediumpurple);
-    margin-bottom: 8%;
     padding: .5em;
-    width:30%;
+    width:410px;
 	  border-radius:5px;	
    height:85px;
    font-family:arial;
@@ -70,12 +69,12 @@
 	background: linear-gradient(gold, orange);
 	border: .125em solid #FFD700;
 	-webkit-border-radius: 3px;
-	width: 101.5%;  
+	width:410px;
 	height: 50px;
 	font-size: 15px ;
   color: #282828;
   margin-left: -3px;
-  margin-top: -0.5%;
+  margin-top: -0.5px;
 	
 }
 
@@ -87,6 +86,12 @@ footer {
   background-color:#504683;
   width: 100%;
 }
+footer a{
+  text-decoration:none; 
+  color:white;
+  margin-right:-10px;
+  margin-left:40px;
+}
 header {
   position: fixed;
    top: 0;
@@ -95,6 +100,7 @@ header {
   background-color:#252525;
   width: 100%;
   margin-bottom:0px;
+
 }
 .wel {
     background: gold;
@@ -112,32 +118,23 @@ display: inline-block;
     background-color: gold;
 
 }
-.box2 {
-display: inline-block;
-    width: 17%;
-    border: 4px solid #6d61a9;
-    float: right;
-    padding: 10px; 
-    margin-top: -25px;
-    margin-right: 10%;
-    border-radius: 6px;
-    
-    height: 20px;
-
-}	
 .box3 {
-display: inline-block;
-    width: 100%;
-    border: 4px solid linear-gradient(#fecd19,orange);;
-    float: right;
+    width: 260px;
+    border: 4px solid #6d61a9;
     padding: 10px; 
-    margin-top: -10.5px;
-    margin-right: -4.5%;
-    border-radius: 5px;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    margin-left:950px;
+    border-radius: 7px;
     background: linear-gradient(#fecd19,orange);
     height: 20px;
-text-align: center;
-} 
+text-align: left;
+font-family:arial; font-size:13px;
+color:#303030;
+font-weight:bold;
+text-shadow: 1px 1px #E8E8E8;
+text-indent:22px;
+}
 .grid {
         font-size: 30px;
         display: inline-block;
@@ -169,11 +166,20 @@ text-align: center;
 
     	margin:1px;
     	position: absolute;
+      margin-left: -30px;
+    }
+    p.toni {
+      color:white;
+      font-size:20px;
+      margin-top:10px;
+      padding-left:160px;
     }
     .cent{
   display: inline-block;
-  width: 100%;
-  height: 100%;
+  width: 1350px;
+  height: 100px;
+  margin-top:0; 
+  margin-left:5px;
 }
 #login
 {
@@ -182,7 +188,7 @@ margin-left:-200px;
 .mainlogininput{
     font-family: "Times New Roman", Times, serif;
     font-weight:bold;
-    text-indent: 7px;
+    text-indent: 9px;
 }
 .mainlogininput1{
     font-family: Impact, Charcoal, sans-serif;
@@ -202,7 +208,7 @@ margin-left:-200px;
   font-size: 22px;
   font-weight: bold;
   box-shadow: 0 0 5px 0 #6d61a9;
-    
+    margin-left:-60%;
 }
 
 .ii{
@@ -218,6 +224,8 @@ margin-left:-200px;
   font-size: 22px;
   font-weight: bold;
   box-shadow: 0 0 5px 0 #6d61a9;
+  margin-left:0%;
+  margin-top:-200px;
 }
 .iii{
   border: 2px solid #6d61a9;
@@ -232,8 +240,55 @@ margin-left:-200px;
   font-size: 22px;
   font-weight: bold;
   box-shadow: 0 0 5px 0 #6d61a9;
+  margin-left:60%;
+  margin-top:-200px;
 }
 
+h1{
+  text-align:center; 
+  color:white;
+  font-family:arial;
+  font-size:30px;
+  text-shadow: 1px 1px #6a5ea6;
+  padding-top: 30px;
+}
+body{
+  
+  background-image:radial-gradient(#a696df,#6a5ea6);
+}
 
-
-
+.l p{
+  text-align:left; 
+  font-size:15px; 
+  color:white;
+  margin-left:120px;
+  font-family:Arial, Helvetica, sans-serif; 
+  font-weight:bold;
+}
+#ll{
+  text-align:left;
+   font-size:30px; 
+   color:white;
+    margin-left: 120px;
+    font-family: arial;
+    font-weight:bold;
+  text-shadow: 1px 1px #6a5ea6;
+}
+#lll{
+  background: linear-gradient(gold, orange); 
+  padding:10px; 
+  width:500px;
+  border:1px; 
+  margin:5px;
+  color:#303030;
+  text-align:left; 
+  font-size:20px;
+  font-weight:bold;
+  color:#303030; 
+  font-family: "Times New Roman", Times, serif;
+}
+.cent img{
+  marign-left:5px; 
+  margin-right:20px;
+  margin-top:10px;
+}
